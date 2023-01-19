@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!--BOOTSTRAP LINK-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--Animation Install-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Projeto TI</title>
+  </head>
+  <body>
+    <div class="containerSubPage">
+      <header class="headerContent">
+        <div class="headerText">
+            <a href="/pages/home.html" class="logoAnchor text-center">
+          <h3><mark id="titleLogo">INFORMÁTICA</mark></h3>
+          <p>O ENSINO INTEGRADOR DA TECNOLOGIA</p></a>
+        </div>
+        <div class="btnNavGroup">
+            <div class="dropdown">
+              <button class="btn btn-outline-light dropbtn">Nível Básico</button>
+              <div class="dropdown-content">
+                <a class="anchorNav" href="/pages/basicaPage/introinfo.html"
+                  >Introdução á Informática</a
+                >
+                <a class="anchorNav" href="/pages/basicaPage/fundamentos.html"
+                  >Fundamentos de Hardware e Software</a
+                >
+                <a class="anchorNav" href="/pages/basicaPage/programacao1.html"
+                  >Lógica de Programação I</a
+                >
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="btn btn-outline-light dropbtn">
+                Nível Intermediário
+              </button>
+              <div class="dropdown-content">
+                <a class="anchorNav" href="/pages/intermedioPage/so.html"
+                  >Sistemas Operacionais</a
+                >
+                <a class="anchorNav" href="/pages/intermedioPage/devweb.html"
+                  >Desenvolvimento Web</a
+                >
+                <a class="anchorNav" href="/pages/intermedioPage/segsistemas.html"
+                  >Segurança de Sitema</a
+                >
+                <a class="anchorNav" href="/pages/intermedioPage/redes.html"
+                  >Redes de Computadores</a
+                >
+                <a
+                  class="anchorNav"
+                  href="/pages/intermedioPage/programacao2.html"
+                  >Lógica de Programação II</a
+                >
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="btn btn-outline-light dropbtn disabled">
+                Nível Avançado
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+  <div class="containerText">
+    <h3 class="titleContainerText">Introdução á Informática</h3>
+    <p class="paragraphContainerText">
+      <strong>Ciclo de funcionamento de um PC:</strong><br>
+      • Ao ligar o PC, há a busca na memória
+ROM de dados de alguns firmwares que
+vão
+carregar
+no
+HD
+o
+sistema
+operacional, que é carregado para a
+memória RAM, e parte dele vai para uma
+memória intermediária, que é a memória
+cache; e, por fim, será processado na
+CPU.<br>
+• Isso serve para todo e qualquer
+aplicativo ou arquivo que a pessoa abra
+no PC:
+(memória RAM → memória cache → CPU)
+    </p>
+<h3 class="titleContainerText">Unidades de Medidas Computacionais</h3>
+<p class="paragraphContainerText">
+  <strong>Bits e Bytes:</strong> <br>
+  • Bits e Bytes são usados como unidades
+de medidas de informação digital. <br>
+• Bit é a menor informação que o
+computador consegue manipular. <br>
+• Cada 0 ou 1 é chamado de bit (dígito
+binário). <br>
+• 1 Byte é o conjunto de 8 bits <br>
+– 01 00 10 01 <br>
+– 1 letra, 1 número, 1 símbolo, 1
+pontuação, 1 espaço.
+</p>
+<table class="table table-dark table-striped">
+  <thead>
+    <tr>
+      <th>UNIDADE</th>
+      <th>QUANTIDADE</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Byte (B)</td>
+    <td>
+      8 Bits</td>
+  </tr>
+  <tr>
+    <td>Kbyte (KB) [kilobyte]</td>
+    <td>
+      1024 Bytes</td>
+  </tr>
+  <tr>
+    <td>Mbyte(MB) [megabyte]</td>
+    <td>
+      1024 KB</td>
+  </tr>
+  <tr>
+    <td>Gbyte(GB) [gigabyte]</td>
+    <td>
+      1024 MB</td>
+  </tr>
+  <tr>
+    <td>Tbyte(TB) [terabyte]</td>
+    <td>
+      1024 GB</td>
+  </tr>
+  <tr>
+    <td>Pbyte(PB) [petabyte]</td>
+    <td>
+      1024 TB</td>
+  </tr>
+  </tbody>
+  </table>
+  </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
