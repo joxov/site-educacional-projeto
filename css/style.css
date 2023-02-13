@@ -93,10 +93,9 @@ body {
   color: white;
 }
 
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+.container02 {
+  min-height: 100vh;
+  background-color: gainsboro;
 }
 
 .containerText {
@@ -132,5 +131,31 @@ strong {
   background-color: black;
   color: white;
 }
-
-/*# sourceMappingURL=style.css.map */
+.containerText {
+  margin-top: 12px;
+  min-height: 100vh;
+  padding: 15px;
+}
+.titleContainerText {
+  margin-top: 40px;
+  color: #370042;
+  text-align: center;
+  font-size: 30px;
+}
+.paragraphContainerText {
+  line-height: 30px;
+}
+strong {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  line-height: 80px;
+}
+#imgEx {
+  height: 450px;
+  width: 450px;
+}
+.codExamples {
+  background-color: black;
+  color: white;
+}
